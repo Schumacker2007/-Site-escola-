@@ -1,4 +1,28 @@
-header {
-    background-color: #F5F5F5;
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    padding: 10px
+}
+.cabecalho {
+    background-color: #FEFEFE;
     color:#2A1854;
-    }
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    border: 2px solid;
+    border-color: #3B7080;
+}
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+}
+.cabecalho-item {
+    display: inline-block;
+    margin: 0 16px;
+}
+.colegio {
+    width: 10%;
+}
